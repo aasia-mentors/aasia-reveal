@@ -79,7 +79,7 @@ form:focus-within {
     font-weight: bold;
     font-size: 1em;
     font-family: Nunito;
-    color: #6183A2;
+    color: #BC8F8F;
     background: none;
     cursor: pointer;
 }
@@ -431,6 +431,15 @@ p.message a {
     text-decoration: underline;
 }
 
+/* MAP */
+
+#mapscreen {
+    display: none;
+}
+
+#formscreen {
+}
+
 /* LETTER */
 
 .reveal {
@@ -440,7 +449,7 @@ p.message a {
 }
 
 .reveal p {
-    font-size:1.15em;
+    font-size:1.2em;
     margin-bottom:2.5%;
 }
 
