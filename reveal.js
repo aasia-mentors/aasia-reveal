@@ -40,8 +40,8 @@ var $riddles = {
     "andy": "This building is the oldest of its kind in the United States",
     "andrew": "This building is the oldest of its kind in the United States",
     "megan": "If i was a worm that never died, you would find me here in room 409 of this building :^)",
-    "emi": "a (wo)man, a(n architectural) plan, a(n underground) canal (for trains), _ _ _ _ _",
-    "emiko": "a (wo)man, a(n architectural) plan, a(n underground) canal (for trains), _ _ _ _ _",
+    "emi": "Michelle Phan, Hasan Minaj, and Steve Aoki would probably all hang here if they attended NEU",
+    "emiko": "Michelle Phan, Hasan Minaj, and Steve Aoki would probably all hang here if they attended NEU",
     "noor": "Center of campus, center of mind, walk 'cross rust bridge to see who you can find. maybe they're behind a tree, maybe they're not, but one thing's for sure—they're kinda far from any parking lot. go into the building and what will you see? a building of tech advisors, professors, and workshops, yippee",
     "sonya": "Center of campus, center of mind, walk 'cross rust bridge to see who you can find. maybe they're behind a tree, maybe they're not, but one thing's for sure—they're kinda far from any parking lot. go into the building and what will you see? a building of tech advisors, professors, and workshops, yippee",
     "xinyu": "Come to cry, leave at dawn. Most of your will to live is gone.",
@@ -263,10 +263,14 @@ function toggleMap() {
     }
 }
 
-$('.full').on('click', function() {
-    if ($mapimage) {
-        $mapimage.remove();
-        var map = document.getElementById("bigmap");
-        map.style.display = "none";
-    }
+// $('.full').on('click', function() {
+//     if ($mapimage) {
+//         $mapimage.remove();
+//         var map = document.getElementById("bigmap");
+//         map.style.display = "none";
+//     }
+// });
+
+$('#bigmap').on('click', function() {
+    this.style.display = "none";
 });

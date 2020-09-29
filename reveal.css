@@ -193,7 +193,7 @@ h1.overview-text {
     text-align: left;
     color: #241C19;
     font-weight: bold;
-    font-size:1.75em;
+    font-size: 1.75em;
     margin-bottom: 1em;
     padding: 0 10%;
 }
@@ -308,10 +308,6 @@ p.message a {
     width: 80%;
 }
 
-.image-overlay.zoom {
-    width: 200%;
-}
-
 .image-overlay img,
 .image-overlay svg {
     width: 100%;
@@ -319,6 +315,19 @@ p.message a {
     left: 0;
     position: absolute;
     margin-bottom: 2em;
+}
+
+.image-overlay.zoom {
+    top:0;
+    left:0;
+    position:absolute;
+    width: 100%;
+    height:150%;
+}
+
+.image-overlay.zoom img,
+.image-overlay.zoom svg {
+    width: 200%;
 }
 
 .image-overlay svg rect {
@@ -335,7 +344,7 @@ p.message a {
     opacity: 0 !important;
 }
 
-.image-overlay svg rect.mapclick:hover{
+.image-overlay svg rect.mapclick:hover {
     opacity: 0.1 !important;
     cursor: pointer;
 }
@@ -349,12 +358,29 @@ p.message a {
     cursor: pointer;
 }
 
+.scroll-arrow {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    font-size:2.5em;
+    font-weight:bold;
+    color:white;
+}
+
+.scroll-arrow.up {
+    top:0;
+}
+
+.scroll-arrow.down {
+    bottom:0;
+}
+
 #bigmap {
-    display:none;
+    display: none;
 }
 
 #mapoverview {
-    display:none;
+    display: none;
 }
 
 .full-screen {
@@ -441,25 +467,24 @@ p.message a {
     display: none;
 }
 
-#formscreen {
-}
+#formscreen {}
 
 /* LETTER */
 
 .reveal {
     width: 80%;
     margin: 2% 10%;
-    position:relative;
+    position: relative;
 }
 
 .reveal p {
-    font-size:1.2em;
-    margin-bottom:2.5%;
+    font-size: 1.2em;
+    margin-bottom: 2.5%;
 }
 
 .reveal p strong {
-    font-size:1.5em;
-    line-height:2em;
+    font-size: 1.5em;
+    line-height: 2em;
 }
 
 .reveal img {
@@ -486,7 +511,8 @@ p.message a {
         width: 80%;
     }
 
-    .image-overlay.zoom {
+    .image-overlay.zoom img,
+    .image-overlay.zoom svg {
         width: 250%;
     }
 
@@ -532,8 +558,9 @@ p.message a {
         width: 90%;
     }
 
-    .image-overlay.zoom {
-        width:300%;
+    .image-overlay.zoom img,
+    .image-overlay.zoom svg {
+        width: 300%;
     }
 
     .message-container.snap video {
