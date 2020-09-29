@@ -318,11 +318,11 @@ p.message a {
 }
 
 .image-overlay.zoom {
-    top:0;
-    left:0;
-    position:absolute;
+    top: 0;
+    left: 0;
+    position: absolute;
     width: 100%;
-    height:150%;
+    height: 150%;
 }
 
 .image-overlay.zoom img,
@@ -362,17 +362,17 @@ p.message a {
     position: fixed;
     text-align: center;
     width: 100%;
-    font-size:2.5em;
-    font-weight:bold;
-    color:white;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
 }
 
 .scroll-arrow.up {
-    top:0;
+    top: 0;
 }
 
 .scroll-arrow.down {
-    bottom:0;
+    bottom: 0;
 }
 
 #bigmap {
@@ -383,6 +383,15 @@ p.message a {
     display: none;
 }
 
+img.banner {
+    width: 30%;
+}
+
+img.subline {
+    width: 30%;
+    margin-bottom: 1em;
+}
+
 .full-screen {
     width: 100%;
     height: 100%;
@@ -391,54 +400,6 @@ p.message a {
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
     overflow-y: scroll;
-}
-
-.full-screen::-webkit-scrollbar {
-    display: none;
-}
-
-.full-screen .ig-post {
-    position: relative;
-    text-align: left;
-    background-color: white;
-    border-radius: 10px;
-    color: black;
-    width: 30%;
-    margin: 5% 35%;
-    padding: 0.15% 0 1%;
-}
-
-.full-screen .cb-note {
-    position: relative;
-    text-align: left;
-    padding: 0;
-    background-color: rgb(237, 228, 222);
-    color: black;
-    width: 30%;
-    margin: 5% 35%;
-}
-
-.full-screen .ig-post a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #312621;
-}
-
-.full-screen .propic {
-    width: 2em;
-    border-radius: 100%;
-    float: left;
-    margin: 2.5% 0.5em 0 1em;
-    padding-top: 0%;
-}
-
-.full-screen .feature {
-    width: 100%;
-    z-index: 1;
-}
-
-.full-screen .ig-post p {
-    margin: 1em 1.15em;
 }
 
 /* SNAPCHAT */
@@ -525,6 +486,11 @@ p.message a {
         font-size: 0.9em;
     }
 
+    img.banner,
+    img.subline {
+        width: 35%;
+    }
+
 }
 
 
@@ -587,6 +553,11 @@ p.message a {
         font-size: 1em;
     }
 
+    img.banner,
+    img.subline {
+        width: 50%;
+    }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -621,6 +592,12 @@ p.message a {
 
     .puzzle-piece {
         width: 30%;
+    }
+
+
+    img.banner,
+    img.subline {
+        width: 60%;
     }
 
 }
