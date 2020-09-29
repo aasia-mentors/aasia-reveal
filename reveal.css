@@ -379,6 +379,14 @@ p.message a {
     display: none;
 }
 
+#bigmapkeys {
+    display: none;
+}
+
+#bigmapkeys img {
+    width:100% !important;
+}
+
 #mapoverview {
     display: none;
 }
@@ -428,28 +436,31 @@ img.subline {
     display: none;
 }
 
-#formscreen {}
+#maptext {
+    display: block;
+}
 
 /* LETTER */
 
 .reveal {
     width: 80%;
-    margin: 2% 10%;
+    margin: 2% 10% 3%;
     position: relative;
 }
 
 .reveal p {
     font-size: 1.2em;
-    margin-bottom: 2.5%;
+    margin: 0.5em 0;
 }
 
 .reveal p strong {
     font-size: 1.5em;
-    line-height: 2em;
+    margin-bottom: 2em !important;
 }
 
 .reveal img {
     width: 100%;
+    margin-top: 1em;
 }
 
 /* MEDIA QUERIES */
