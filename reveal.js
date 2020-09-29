@@ -75,7 +75,7 @@ function checkName() {
     $name = document.getElementById("name").value.toLowerCase().replace(/\s/g, '')
     $riddle = $riddles[$name];
     if ($riddle) {
-        $("#intro").text("Hey " + capitalizeFirstLetter($name) + "! Here is the riddle you'll need to find your mentor: " + $riddle);
+        document.getElementById("intro").innerHTML = "<p><strong>Hey " + capitalizeFirstLetter($name) + "! 👋🏻 </strong><br/> Here is the riddle you'll need to find your mentor: " + $riddle + "</p>";
         var mapOverview = document.getElementById("mapoverview");
         mapOverview.style.display = "block";
     }
@@ -217,6 +217,33 @@ $('.zoomclick').on('click', function() {
             break;
         default:
             alert("Sorry, this isn't where your mentor is! If you need help, reach out to Tau or Anisa for a hint!");
+            break;
+    }
+});
+
+$('.smclick').on('click', function() {
+    $seniormentor = $(this).attr('id');
+    switch ($seniormentor) {
+        case ("winnie"):
+            window.location = "winnie-l1.html";
+            break;
+        case ("chris"):
+            window.location = "chris-r6.html";
+            break;
+        case ("stacey"):
+            window.location = "stacey-s4.html";
+            break;
+        case ("sooji"):
+            window.location = "sooji-p8.html";
+            break;
+        case ("ashley"):
+            window.location = "ashley-h5.html";
+            break;
+        case ("anthony"):
+            window.location = "anthony-w3.html";
+            break;
+        default:
+            alert("Sorry, this isn't where your senior mentor is! If you need help, reach out to Tau or Anisa for a hint!");
             break;
     }
 });

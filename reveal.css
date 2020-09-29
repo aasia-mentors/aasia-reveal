@@ -345,6 +345,10 @@ p.message a {
     cursor: pointer;
 }
 
+.image-overlay svg rect.smclick:hover {
+    cursor: pointer;
+}
+
 #bigmap {
     display:none;
 }

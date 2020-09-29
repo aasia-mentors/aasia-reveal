@@ -1,23 +1,23 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2383 1361">
     <rect class="cls-1" y="-2" width="2383" height="1363" />
-    <rect class="cls-1" x="989" y="1116" width="41" height="29" />
-    <rect class="cls-1" x="570" y="714" width="43" height="29" />
-    <rect class="cls-1" x="392" y="404" width="44" height="30" />
-    <rect class="cls-1" x="982" y="440" width="42" height="28" />
-    <rect class="cls-1" x="1124" y="643" width="40" height="28" />
-    <rect class="cls-1" x="1147" y="579" width="42" height="29" />
-    <rect class="cls-1" x="1066" y="703" width="53" height="30" />
-    <rect class="cls-1" x="837" y="911" width="62" height="31" />
-    <rect class="cls-1" x="1300" y="817" width="41" height="30" />
-    <rect class="cls-1" x="1723" y="925" width="47" height="32" />
-    <rect class="cls-1" x="1090" y="290" width="46" height="31" />
-    <rect class="cls-1" x="1220" y="666" width="43" height="28" />
-    <rect class="cls-1" x="358" y="576" width="41" height="28" />
-    <rect class="cls-1" x="825" y="587" width="42" height="30" />
-    <rect class="cls-1" x="881" y="718" width="42" height="32" />
-    <rect class="cls-1" x="1031" y="961" width="41" height="30" />
-    <rect class="cls-1" x="1367" y="658" width="41" height="29" />
-    <rect class="cls-1" x="1407" y="521" width="45" height="27" />
+    <rect id="alumni" class="zoomclick" x="989" y="1116" width="41" height="29"></rect>
+    <rect id="architecture" class="zoomclick" x="570" y="714" width="43" height="29"></rect>
+    <rect id="behrakis" class="zoomclick" x="392" y="404" width="44" height="30"></rect>
+    <rect id="cabot" class="zoomclick" x="982" y="440" width="42" height="28"></rect>
+    <rect id="blackman" class="zoomclick" x="1124" y="643" width="40" height="28"></rect>
+    <rect id="ell" class="zoomclick" x="1147" y="579" width="42" height="29"></rect>
+    <rect id="curry" class="zoomclick" x="1066" y="703" width="53" height="30"></rect>
+    <rect id="isec" class="zoomclick" x="837" y="911" width="62" height="31"></rect>
+    <rect id="hurtig" class="zoomclick" x="1300" y="817" width="41" height="30"></rect>
+    <rect id="matthews" class="zoomclick" x="1723" y="925" width="47" height="32"></rect>
+    <rect id="marino" class="zoomclick" x="1090" y="290" width="46" height="31"></rect>
+    <rect id="mugar" class="zoomclick" x="1220" y="666" width="43" height="28"></rect>
+    <rect id="ryder" class="zoomclick" x="358" y="576" width="41" height="28"></rect>
+    <rect id="snellengineering" class="zoomclick" x="825" y="587" width="42" height="30"></rect>
+    <rect id="snelllibrary" class="zoomclick" x="881" y="718" width="42" height="32"></rect>
+    <rect id="squashbusters" class="zoomclick" x="1031" y="961" width="41" height="30"></rect>
+    <rect id="eastvillage" class="zoomclick" x="1367" y="658" width="41" height="29"></rect>
+    <rect id="319" class="zoomclick" x="1407" y="521" width="45" height="27"></rect>
     <rect class="zoomclick" x="466" y="100" width="43" height="30" />
     <rect class="zoomclick" x="524" y="133" width="41" height="28" />
     <rect class="zoomclick" x="411" y="196" width="65" height="29" />
