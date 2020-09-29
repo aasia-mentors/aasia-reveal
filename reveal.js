@@ -30,7 +30,7 @@ var $riddles = {
     "huiyun": "Bright lights in your eyes, not a face to be seen, this is where stories are told",
     "aaron": "Row, row, row your boat! Runners, take your mark, GO! Splish splash in a 50 meter pool. I'm your home if you're really good at running and swimming and other indoor athletic activities",
     "jamie": "Kpop? Fan dance? Tinikling? If you like moving your body to music, you might find yourself in a practice studio in this building!",
-    "amy": "No riddle yet",
+    "amy": "Metal mascot standing tall, find me dancing at&nbsp;&nbsp;_ _ _&nbsp;&nbsp;&nbsp;_ _ _ _",
     "thaovy": "What did one charged atom say to the other? I got my ion you! You're the one I've got MY eye on this year :)",
     "thao-vy": "What did one charged atom say to the other? I got my ion you! You're the one I've got MY eye on this year :)",
     "ruiming": "Reflections to the East, rust to the West.<br>But I'm rarely here, unless it is to impress a guest.<br>There's glass, and coffee, and thinkers too.<br>Meet me on the sixth floor, to enjoy the view :-')",
